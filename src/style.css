@@ -70,7 +70,8 @@ h1{
     transition:all .3s ease-in-out;
 }
 
-.label-float input:focus+label{
+.label-float input:focus+label,
+.label-float input:valid+label{
     font-size:13px;
     margin-top:0px;
     color:#0a0744;
@@ -123,4 +124,11 @@ footer{
     font-size: 16px;
     color:#ffffff30;
     
+}
+.fa-eye, .fa-eye-slash{
+    color: #0a0744;
+    position: absolute;
+    top:16px;
+    right:10px;
+    cursor:pointer;
 }
